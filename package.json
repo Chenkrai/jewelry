@@ -27,11 +27,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MayaZirin/jeweleryProject.git"
+    "url": "git+https://github.com/Chenkrai/jewelry.git"
   },
   "bugs": {
-    "url": "https://github.com/MayaZirin/jeweleryProject/issues"
+    "url": "https://github.com/Chenkrai/jewelry/issues"
   },
-  "homepage": "https://github.com/MayaZirin/jeweleryProject#readme",
+  "homepage": "https://github.com/Chenkrai/jewelry#readme",
   "description": ""
 }
