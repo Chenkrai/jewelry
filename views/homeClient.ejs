@@ -5,7 +5,7 @@
     <% }  
     else 
     {  %>  
-    
+       
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?libraries=places&key=<%= google_maps_api_key %>" ></script>        
     <input type="hidden" id="user_id" value="<%=user.id %>" ></input> 
     <input type="hidden" id="user_name" value="<%=user.name %>" ></input>
@@ -132,13 +132,13 @@
                     <div class="card">
                     <img id="url_<%=i; %>" src="<%=data.url %>" alt="Avatar" style="width:100%">
                     <div class="container" style="display: flex">
-                        <p id="details_<%=i; %>" style="margin: 5px"><b><%=data.details %></b></p> 
-                        <p id="type_<%=i; %>" style="margin: 5px"><%=data.type %></p> 
+                        <p1 id="details_<%=i; %>" style="margin: 5px"><b><%=data.details %></b></p1> 
+                        <p1 id="type_<%=i; %>" style="margin: 5px"><%=data.type %></p1> 
                     </div> 
                     <div class="container" style="display: flex; flex-direction: row; margin: 5px;">
-                        <p id="metal_<%=i; %>" style="margin: 5px"><%=data.metal %></p> 
-                        <p id="gender_<%=i; %>" style="margin: 5px"><%=data.gender %></p> 
-                        <p id="manufacturer_<%=i; %>" style="margin: 5px"><%=data.manufacturer %></p> 
+                        <p1 id="metal_<%=i; %>" style="margin: 5px"><%=data.metal %></p1> 
+                        <p1 id="gender_<%=i; %>" style="margin: 5px"><%=data.gender %></p1> 
+                        <p1 id="manufacturer_<%=i; %>" style="margin: 5px"><%=data.manufacturer %></p1> 
                     </div> 
                     <div class="container" style="display: flex">
                         <h4 id="price_<%=i; %>" style="margin: 5px"><b><%=data.price %> ₪</b></h4> 
